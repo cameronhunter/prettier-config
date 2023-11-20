@@ -1,5 +1,11 @@
 # @cameronhunter/prettier-config
 
+## 2.0.2
+
+### Patch Changes
+
+-   0b999be: Add keywords to package.json
+
 ## 2.0.1
 
 ### Patch Changes
