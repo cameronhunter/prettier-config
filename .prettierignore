@@ -1,2 +1,8 @@
 # Ignore the original files that we test against.
 **/__fixtures__/**/before.*
+
+/.changeset/*.md
+/pnpm-lock.yaml
+/CHANGELOG.md
+
+tsconfig.*
