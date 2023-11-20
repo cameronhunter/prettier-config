@@ -1,2 +1,2 @@
-# Ignore the original file that we test against.
-**/__fixtures__/before.ts
+# Ignore the original files that we test against.
+**/__fixtures__/**/before.*
