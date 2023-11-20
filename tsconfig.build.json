@@ -7,8 +7,6 @@
         "src"
     ],
     "compilerOptions": {
-        "outDir": "build",
-        "declaration": true,
-        "declarationMap": true
+        "outDir": "build"
     }
 }
