@@ -1,5 +1,15 @@
 # @cameronhunter/prettier-config
 
+## 2.0.0
+
+### Major Changes
+
+-   649f238: Moving back to spaces because VSCode was being funny about tabs
+
+### Patch Changes
+
+-   6e9ca0f: Fixing the exports
+
 ## 1.0.0
 
 ### Major Changes
