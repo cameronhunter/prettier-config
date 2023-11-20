@@ -1,5 +1,11 @@
 # @cameronhunter/prettier-config
 
+## 2.0.1
+
+### Patch Changes
+
+-   265bb28: Publish package
+
 ## 2.0.0
 
 ### Major Changes
