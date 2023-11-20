@@ -14,9 +14,9 @@
 		"url": "https://github.com/cameronhunter/prettier-config.git"
 	},
 	"files": [
-		".prettierrc.json"
+		"prettier.config.cjs"
 	],
-	"main": ".prettierrc.json",
+	"main": "prettier.config.cjs",
 	"keywords": [
 		"prettier",
 		"configuration"

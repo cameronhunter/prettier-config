@@ -2,7 +2,7 @@ import { test, expect } from 'vitest';
 import { format, type Config } from 'prettier';
 import { readFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
-import config from '../.prettierrc.json';
+import config from '../prettier.config.cjs';
 
 const suite = test.each`
 	fixture         | ext
