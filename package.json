@@ -1,6 +1,6 @@
 {
   "name": "@cameronhunter/prettier-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "My preferred Prettier configuration",
   "scripts": {
     "build": "tsc -p ./tsconfig.build.json",
