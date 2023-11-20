@@ -16,4 +16,4 @@ const config: Config = {
     ],
 };
 
-exports = config;
+export = config;
