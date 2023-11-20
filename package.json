@@ -1,41 +1,41 @@
 {
-	"name": "@cameronhunter/prettier-config",
-	"version": "3.0.1",
-	"description": "My preferred Prettier configuration",
-	"scripts": {
-		"format": "prettier --write .",
-		"test": "vitest",
-		"release": "pnpm run publish:github && pnpm run publish:npm",
-		"publish:github": "npm_config_registry=https://npm.pkg.github.com/ pnpm changeset publish",
-		"publish:npm": "npm_config_registry=https://registry.npmjs.org/ pnpm changeset publish"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/cameronhunter/prettier-config.git"
-	},
-	"files": [
-		"prettier.config.cjs"
-	],
-	"main": "prettier.config.cjs",
-	"keywords": [
-		"prettier",
-		"configuration"
-	],
-	"author": "Cameron Hunter <hello@cameronhunter.co.uk>",
-	"license": "MIT",
-	"peerDependencies": {
-		"prettier": ">=2"
-	},
-	"devDependencies": {
-		"@changesets/cli": "^2.26.2",
-		"@tsconfig/node-lts": "^18.12.5",
-		"@tsconfig/strictest": "^2.0.2",
-		"prettier": "^3.1.0",
-		"typescript": "5.2.2",
-		"vitest": "^0.34.6"
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"packageManager": "pnpm@8.10.5"
+  "name": "@cameronhunter/prettier-config",
+  "version": "3.0.1",
+  "description": "My preferred Prettier configuration",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "vitest",
+    "release": "pnpm run publish:github && pnpm run publish:npm",
+    "publish:github": "npm_config_registry=https://npm.pkg.github.com/ pnpm changeset publish",
+    "publish:npm": "npm_config_registry=https://registry.npmjs.org/ pnpm changeset publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameronhunter/prettier-config.git"
+  },
+  "files": [
+    "prettier.config.cjs"
+  ],
+  "main": "prettier.config.cjs",
+  "keywords": [
+    "prettier",
+    "configuration"
+  ],
+  "author": "Cameron Hunter <hello@cameronhunter.co.uk>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": ">=2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@tsconfig/node-lts": "^18.12.5",
+    "@tsconfig/strictest": "^2.0.2",
+    "prettier": "^3.1.0",
+    "typescript": "5.2.2",
+    "vitest": "^0.34.6"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@8.10.5"
 }

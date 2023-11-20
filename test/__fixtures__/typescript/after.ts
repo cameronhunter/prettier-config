@@ -5,6 +5,6 @@ import { func } from 'foo';
 const foo = (e) => e;
 
 function bar() {
-	// Spacing should use 4 spaces
-	return 'hello';
+    // Spacing should use 4 spaces
+    return 'hello';
 }
