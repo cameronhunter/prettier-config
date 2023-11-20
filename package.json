@@ -1,6 +1,6 @@
 {
 	"name": "@cameronhunter/prettier-config",
-	"version": "2.0.2",
+	"version": "3.0.0",
 	"description": "My preferred Prettier configuration",
 	"scripts": {
 		"format": "prettier --write .",
