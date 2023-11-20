@@ -4,6 +4,9 @@
     "src",
     "test"
   ],
+  "exclude": [
+    "test/__fixtures__"
+  ],
   "compilerOptions": {
     "noEmit": true
   }
