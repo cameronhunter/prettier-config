@@ -1,5 +1,11 @@
 # @cameronhunter/prettier-config
 
+## 3.0.1
+
+### Patch Changes
+
+- f3c5d8a: Exporting a JS file instead of JSON
+
 ## 3.0.0
 
 ### Major Changes
