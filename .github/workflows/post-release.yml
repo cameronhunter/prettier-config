@@ -1,4 +1,4 @@
-name: '@latest'
+name: Post-release
 
 on:
     workflow_run:
@@ -11,8 +11,13 @@ jobs:
     test:
         name: Test Suite
         runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version: [lts/*, lts/-1, current]
+
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
               with:
                   ref: main
 
@@ -24,15 +29,15 @@ jobs:
 
             - name: Checking out tag ${{ steps.get-version.outputs.version }}
               if: steps.get-version.outputs.version != 'v0.0.0'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                   ref: ${{ steps.get-version.outputs.version }}
 
-            - name: Use Node LTS
+            - name: Use Node ${{ matrix.node-version }}
               if: steps.get-version.outputs.version != 'v0.0.0'
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: 20.x
+                  node-version: ${{ matrix.node-version }}
 
             - name: Install dependencies
               if: steps.get-version.outputs.version != 'v0.0.0'
