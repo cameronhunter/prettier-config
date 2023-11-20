@@ -38,17 +38,6 @@ const config = {
                 tabWidth: 2,
             },
         },
-        {
-            /**
-             * Reduce the print width for better prose readability.
-             */
-            files: ['*.md', '*.markdown'],
-            options: {
-                printWidth: 80,
-                proseWrap: 'always',
-                tabWidth: 2,
-            },
-        },
     ],
 };
 
