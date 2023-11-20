@@ -1,5 +1,11 @@
 # @cameronhunter/prettier-config
 
+## 5.0.0
+
+### Major Changes
+
+-   a1cf4eb: Remove markdown formatting, it breaks Github READMEs
+
 ## 4.0.0
 
 ### Major Changes
